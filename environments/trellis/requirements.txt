@@ -1,0 +1,11 @@
+# Additional dependencies for the archived asset-generation wrappers.
+# Install TRELLIS.2 and its compiled dependencies separately using upstream setup.
+requests>=2.32,<3
+huggingface-hub>=0.34
+opencv-python-headless>=4.11,<5
+imageio>=2.37,<3
+transformers>=4.55
+accelerate>=1.10
+bitsandbytes>=0.46
+kornia>=0.8,<1
+sapien>=3,<4

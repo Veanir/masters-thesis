@@ -1,0 +1,40 @@
+{
+  "status": "metadata-based supplement frozen before campaign surface analysis; primaryall25unchanged",
+  "campaign_sha256": "366ee9e99b57aa5182d79056acfe304f2751adf29dde15e5c41755d5e3affc35",
+  "known_category_ids": [
+    "bearing_002",
+    "cereal_box_002",
+    "charging_brick_002",
+    "clamp_004",
+    "connector_plug_003",
+    "hex_key_set_001",
+    "pipe_elbow_004",
+    "power_bank_001",
+    "rugged_phone_003",
+    "small_motor_002",
+    "small_motor_004",
+    "small_tablet_002",
+    "smartphone_004",
+    "spray_bottle_003",
+    "stapler_001",
+    "tape_roll_002",
+    "usb_hub_002"
+  ],
+  "untrained_category_ids": [
+    "digital_caliper_002",
+    "digital_caliper_004",
+    "feature_phone_001",
+    "feature_phone_003",
+    "feature_phone_004",
+    "pcb_board_002",
+    "pcb_board_003",
+    "pcb_board_004"
+  ],
+  "known_count": 17,
+  "untrained_count": 8,
+  "untrained_categories": [
+    "digital_caliper",
+    "feature_phone",
+    "pcb_board"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "purpose": "paired_evolution_matrix_frozen",
+  "context": "masked",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "arms": [
+    "BASE",
+    "CLASSIC",
+    "PHOTO"
+  ],
+  "epochs": 4,
+  "steps": 25600,
+  "decoder_blocks": 2,
+  "lr": 0.00001,
+  "weight_decay": 0.0001,
+  "gradient_clip": 1,
+  "checkpoint_interval": 3200,
+  "training_geometries": 320,
+  "views_per_geometry": 20,
+  "precision": "bf16 forward, fp32 weights",
+  "checkpoint_selection": "last fixed update",
+  "confidence_amendment": {
+    "seed0": "all arms from step 0",
+    "seed1": "original derivative",
+    "seed2": "BASE original; PHOTO amended from step 0; CLASSIC original then resume amended at step 9600"
+  }
+}

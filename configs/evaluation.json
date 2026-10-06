@@ -1,0 +1,28 @@
+{
+  "primary_endpoint": "object-mean F5, PHOTO minus BASE",
+  "thresholds_m": [
+    0.002,
+    0.005,
+    0.01
+  ],
+  "reference_points": 262144,
+  "truth_seed_purpose": "evolution-eval-GT-v1",
+  "prediction_selection_seed_purpose": "evolution-eval-point-selection-v1",
+  "chamfer_cap_m": 0.1,
+  "visibility_tolerance_m": 0.005,
+  "visibility_patch_span_m": 0.01,
+  "bootstrap_replicates": 10000,
+  "object_bootstrap_seed": 2026090702,
+  "sensitivity_seed": 2026090703,
+  "point_budgets": {
+    "cap16384": 16384,
+    "cap512": 512,
+    "shared_nonfailed_cap": null,
+    "native": null
+  },
+  "minimum_prediction_points": 512,
+  "inference_seed": 20260905,
+  "cohort_observations": 198,
+  "cohort_objects": 33,
+  "cohort_scenes": 13
+}

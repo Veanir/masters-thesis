@@ -1,0 +1,23 @@
+[project]
+name = "masters-rgbd-b1-runtime"
+version = "0.1.0"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "numpy>=2,<3", "pillow>=12,<13", "scipy>=1.16,<2", "trimesh>=4.12,<5", "matplotlib>=3.10,<4",
+  "torch==2.7.0",
+]
+
+[dependency-groups]
+dev = [
+  "jsonschema>=4.23,<5",
+  "pytest>=8.3.0",
+  "ruff>=0.8.0",
+]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true

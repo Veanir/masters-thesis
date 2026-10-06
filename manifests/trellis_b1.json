@@ -1,0 +1,578 @@
+{
+  "schema_version": "balanced-generated-diversity-v1",
+  "pools": {
+    "apple": {
+      "base": [
+        "apple_003"
+      ],
+      "mix": [
+        "apple_003",
+        "apple_001"
+      ]
+    },
+    "banana": {
+      "base": [
+        "banana_004"
+      ],
+      "mix": [
+        "banana_004",
+        "banana_001"
+      ]
+    },
+    "battery_pack": {
+      "base": [
+        "battery_pack_002",
+        "battery_pack_004"
+      ],
+      "mix": [
+        "battery_pack_002",
+        "battery_pack_004",
+        "battery_pack_001",
+        "battery_pack_003"
+      ]
+    },
+    "bearing": {
+      "base": [
+        "bearing_003"
+      ],
+      "mix": [
+        "bearing_003",
+        "bearing_004"
+      ]
+    },
+    "bottle": {
+      "base": [
+        "bottle_002",
+        "bottle_004"
+      ],
+      "mix": [
+        "bottle_002",
+        "bottle_004",
+        "bottle_001",
+        "bottle_003"
+      ]
+    },
+    "bowl": {
+      "base": [
+        "bowl_003",
+        "bowl_004"
+      ],
+      "mix": [
+        "bowl_003",
+        "bowl_004",
+        "bowl_001",
+        "bowl_002"
+      ]
+    },
+    "bracket": {
+      "base": [
+        "bracket_003",
+        "bracket_001"
+      ],
+      "mix": [
+        "bracket_003",
+        "bracket_001",
+        "bracket_002",
+        "bracket_004"
+      ]
+    },
+    "cable_spool": {
+      "base": [
+        "cable_spool_002",
+        "cable_spool_004"
+      ],
+      "mix": [
+        "cable_spool_002",
+        "cable_spool_004",
+        "cable_spool_003",
+        "cable_spool_001"
+      ]
+    },
+    "can": {
+      "base": [
+        "can_004"
+      ],
+      "mix": [
+        "can_004",
+        "can_003"
+      ]
+    },
+    "cardboard_box": {
+      "base": [
+        "cardboard_box_001",
+        "cardboard_box_004"
+      ],
+      "mix": [
+        "cardboard_box_001",
+        "cardboard_box_004",
+        "cardboard_box_002",
+        "cardboard_box_003"
+      ]
+    },
+    "cereal_box": {
+      "base": [
+        "cereal_box_003"
+      ],
+      "mix": [
+        "cereal_box_003",
+        "cereal_box_001"
+      ]
+    },
+    "charging_brick": {
+      "base": [
+        "charging_brick_001"
+      ],
+      "mix": [
+        "charging_brick_001",
+        "charging_brick_003"
+      ]
+    },
+    "clamp": {
+      "base": [
+        "clamp_002"
+      ],
+      "mix": [
+        "clamp_002",
+        "clamp_001"
+      ]
+    },
+    "computer_mouse": {
+      "base": [
+        "computer_mouse_003"
+      ],
+      "mix": [
+        "computer_mouse_003",
+        "computer_mouse_004"
+      ]
+    },
+    "connector_plug": {
+      "base": [
+        "connector_plug_004"
+      ],
+      "mix": [
+        "connector_plug_004",
+        "connector_plug_002"
+      ]
+    },
+    "cup": {
+      "base": [
+        "cup_001",
+        "cup_003"
+      ],
+      "mix": [
+        "cup_001",
+        "cup_003",
+        "cup_002",
+        "cup_004"
+      ]
+    },
+    "game_controller": {
+      "base": [
+        "game_controller_004",
+        "game_controller_001"
+      ],
+      "mix": [
+        "game_controller_004",
+        "game_controller_001",
+        "game_controller_002",
+        "game_controller_003"
+      ]
+    },
+    "gear": {
+      "base": [
+        "gear_004"
+      ],
+      "mix": [
+        "gear_004",
+        "gear_003"
+      ]
+    },
+    "hex_key_set": {
+      "base": [
+        "hex_key_set_004"
+      ],
+      "mix": [
+        "hex_key_set_004",
+        "hex_key_set_002"
+      ]
+    },
+    "jar": {
+      "base": [
+        "jar_001"
+      ],
+      "mix": [
+        "jar_001",
+        "jar_004"
+      ]
+    },
+    "lemon": {
+      "base": [
+        "lemon_002"
+      ],
+      "mix": [
+        "lemon_002",
+        "lemon_001"
+      ]
+    },
+    "marker": {
+      "base": [
+        "marker_001"
+      ],
+      "mix": [
+        "marker_001",
+        "marker_004"
+      ]
+    },
+    "mug": {
+      "base": [
+        "mug_004"
+      ],
+      "mix": [
+        "mug_004",
+        "mug_001"
+      ]
+    },
+    "pipe_elbow": {
+      "base": [
+        "pipe_elbow_003"
+      ],
+      "mix": [
+        "pipe_elbow_003",
+        "pipe_elbow_002"
+      ]
+    },
+    "plate": {
+      "base": [
+        "plate_003",
+        "plate_002"
+      ],
+      "mix": [
+        "plate_003",
+        "plate_002",
+        "plate_001",
+        "plate_004"
+      ]
+    },
+    "pliers": {
+      "base": [
+        "pliers_004",
+        "pliers_003"
+      ],
+      "mix": [
+        "pliers_004",
+        "pliers_003",
+        "pliers_001",
+        "pliers_002"
+      ]
+    },
+    "power_bank": {
+      "base": [
+        "power_bank_002"
+      ],
+      "mix": [
+        "power_bank_002",
+        "power_bank_004"
+      ]
+    },
+    "pulley": {
+      "base": [
+        "pulley_003"
+      ],
+      "mix": [
+        "pulley_003",
+        "pulley_001"
+      ]
+    },
+    "remote_control": {
+      "base": [
+        "remote_control_003"
+      ],
+      "mix": [
+        "remote_control_003",
+        "remote_control_004"
+      ]
+    },
+    "rugged_phone": {
+      "base": [
+        "rugged_phone_001"
+      ],
+      "mix": [
+        "rugged_phone_001",
+        "rugged_phone_002"
+      ]
+    },
+    "sensor_module": {
+      "base": [
+        "sensor_module_003",
+        "sensor_module_004"
+      ],
+      "mix": [
+        "sensor_module_003",
+        "sensor_module_004",
+        "sensor_module_002",
+        "sensor_module_001"
+      ]
+    },
+    "small_motor": {
+      "base": [
+        "small_motor_003"
+      ],
+      "mix": [
+        "small_motor_003",
+        "small_motor_001"
+      ]
+    },
+    "small_tablet": {
+      "base": [
+        "small_tablet_004"
+      ],
+      "mix": [
+        "small_tablet_004",
+        "small_tablet_003"
+      ]
+    },
+    "smartphone": {
+      "base": [
+        "smartphone_003"
+      ],
+      "mix": [
+        "smartphone_003",
+        "smartphone_002"
+      ]
+    },
+    "sponge": {
+      "base": [
+        "sponge_001",
+        "sponge_002"
+      ],
+      "mix": [
+        "sponge_001",
+        "sponge_002",
+        "sponge_004",
+        "sponge_003"
+      ]
+    },
+    "spray_bottle": {
+      "base": [
+        "spray_bottle_002"
+      ],
+      "mix": [
+        "spray_bottle_002",
+        "spray_bottle_004"
+      ]
+    },
+    "stapler": {
+      "base": [
+        "stapler_002"
+      ],
+      "mix": [
+        "stapler_002",
+        "stapler_003"
+      ]
+    },
+    "tape_measure": {
+      "base": [
+        "tape_measure_004"
+      ],
+      "mix": [
+        "tape_measure_004",
+        "tape_measure_002"
+      ]
+    },
+    "tape_roll": {
+      "base": [
+        "tape_roll_004"
+      ],
+      "mix": [
+        "tape_roll_004",
+        "tape_roll_003"
+      ]
+    },
+    "toy_car": {
+      "base": [
+        "toy_car_002"
+      ],
+      "mix": [
+        "toy_car_002",
+        "toy_car_001"
+      ]
+    },
+    "usb_hub": {
+      "base": [
+        "usb_hub_001"
+      ],
+      "mix": [
+        "usb_hub_001",
+        "usb_hub_004"
+      ]
+    },
+    "valve_knob": {
+      "base": [
+        "valve_knob_001"
+      ],
+      "mix": [
+        "valve_knob_001",
+        "valve_knob_003"
+      ]
+    },
+    "wallet": {
+      "base": [
+        "wallet_001",
+        "wallet_004"
+      ],
+      "mix": [
+        "wallet_001",
+        "wallet_004",
+        "wallet_002",
+        "wallet_003"
+      ]
+    },
+    "wireless_earbud_case": {
+      "base": [
+        "wireless_earbud_case_001"
+      ],
+      "mix": [
+        "wireless_earbud_case_001",
+        "wireless_earbud_case_002"
+      ]
+    }
+  },
+  "excluded_training_ids": [
+    "apple_002",
+    "bearing_001",
+    "can_002",
+    "cereal_box_004",
+    "charging_brick_004",
+    "computer_mouse_001",
+    "digital_caliper_001",
+    "feature_phone_002",
+    "gear_001",
+    "hex_key_set_003",
+    "jar_002",
+    "lemon_004",
+    "marker_003",
+    "mug_003",
+    "pcb_board_001",
+    "pipe_elbow_001",
+    "power_bank_003",
+    "pulley_004",
+    "remote_control_001",
+    "scissors_002",
+    "small_tablet_001",
+    "tape_measure_001",
+    "toy_car_003",
+    "usb_hub_003",
+    "wireless_earbud_case_003",
+    "wrench_001"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "U": 6688,
+  "validation_interval_updates": 176,
+  "training": {
+    "conditioning": "pixel_knn",
+    "learning_rate": 0.0015,
+    "train_query_pool": 512,
+    "queries_per_update": 256,
+    "decoder_channels": 128,
+    "partial_points": 512,
+    "checkpoint_selection": "minimum validation25 object-mean UDF MAE; strict improvement"
+  },
+  "query_seed_rule": "SeedSequence(model_seed, zero_based_per_object_exposure, original_cohort_ordinal)",
+  "exact_geometry_train_validation_overlap_count": 0,
+  "validation_ids": [
+    "bearing_002",
+    "cereal_box_002",
+    "charging_brick_002",
+    "clamp_004",
+    "connector_plug_003",
+    "digital_caliper_002",
+    "digital_caliper_004",
+    "feature_phone_001",
+    "feature_phone_003",
+    "feature_phone_004",
+    "hex_key_set_001",
+    "pcb_board_002",
+    "pcb_board_003",
+    "pcb_board_004",
+    "pipe_elbow_004",
+    "power_bank_001",
+    "rugged_phone_003",
+    "small_motor_002",
+    "small_motor_004",
+    "small_tablet_002",
+    "smartphone_004",
+    "spray_bottle_003",
+    "stapler_001",
+    "tape_roll_002",
+    "usb_hub_002"
+  ],
+  "historical_test_ids": [
+    "apple_004",
+    "banana_002",
+    "banana_003",
+    "can_001",
+    "computer_mouse_002",
+    "connector_plug_001",
+    "gear_002",
+    "jar_003",
+    "lemon_003",
+    "mug_002",
+    "pulley_002",
+    "remote_control_002",
+    "rugged_phone_004",
+    "scissors_003",
+    "smartphone_001",
+    "spray_bottle_001",
+    "stapler_004",
+    "tape_measure_003",
+    "tape_roll_001",
+    "toy_car_004",
+    "valve_knob_002",
+    "valve_knob_004",
+    "wireless_earbud_case_004"
+  ],
+  "preflight_sha256": "6bc4b46baafe923662fb11a7e2fdf46d1b87d9407df696e359847b95906a1d55",
+  "inventory_sha256": "d9c5656ab9f8fe491484f8fba407fd84370bdb99e331dd472e8b9511b8b5caa1",
+  "run_files": [
+    {
+      "path": "trellis_b1/base-u_seed0.json",
+      "sha256": "af7d3d7f5c9581e69f17246fe99e1c2871abc33a7257578ae98bd9d8c7165c71"
+    },
+    {
+      "path": "trellis_b1/mix-u_seed0.json",
+      "sha256": "29ee075b882063c54d17ac293d3bf741c6eedf8f47d599aac11946dca8a68386"
+    },
+    {
+      "path": "trellis_b1/mix-2u_seed0.json",
+      "sha256": "5bd4d4b77f0210ad3098a003dd72380e20e6151b3f3d29db77e2e4d14526932e"
+    },
+    {
+      "path": "trellis_b1/base-u_seed1.json",
+      "sha256": "af94f401f2476bdef6de4d3b0a85501f31dfa26930869f349e99ada45a5a3b87"
+    },
+    {
+      "path": "trellis_b1/mix-u_seed1.json",
+      "sha256": "55d16f11d86b8e1d9f3f7511145d3d1546a14303bf52d2794a00480229ff60f5"
+    },
+    {
+      "path": "trellis_b1/mix-2u_seed1.json",
+      "sha256": "00fcb29f4713b33784cad4c294b7c2eb2061411f54337a9a7a3d9a39c7f1060c"
+    },
+    {
+      "path": "trellis_b1/base-u_seed2.json",
+      "sha256": "e7a871e46126a6da8018d35e355795feb6f147534dbda9e47520f5b61331b55b"
+    },
+    {
+      "path": "trellis_b1/mix-u_seed2.json",
+      "sha256": "279568bf0f284c12a26fd920ceac3cc84e6162a07b5a2d753e324b78d1679416"
+    },
+    {
+      "path": "trellis_b1/mix-2u_seed2.json",
+      "sha256": "6c70617e57fce140d6651aeec03c6a79a6e1c44b65b25ac675db7aebf19bc0dd"
+    }
+  ]
+}

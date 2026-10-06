@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    "HB198-neutral128",
+    "synthetic-holdout720"
+  ],
+  "neutral_rgb": 128,
+  "synthetic_validation_geometries": 36,
+  "views_per_geometry": 20,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 2026091002,
+  "point_budgets": {
+    "cap16384": 16384,
+    "cap512": 512
+  }
+}

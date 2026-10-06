@@ -1,0 +1,20 @@
+{
+  "resolution": 96,
+  "tau_scale": 1.0,
+  "projection_mode": "unit_tau",
+  "gt_points": 16384,
+  "gt_seed": "5000 + index in resolved validation cohort",
+  "validation_objects": 25,
+  "checkpoint": "minimum validation object-mean UDF MAE, strict improvement",
+  "thresholds_m": [
+    0.002,
+    0.005,
+    0.01
+  ],
+  "bootstrap_replicates": 20000,
+  "bootstrap_seed": 20260905,
+  "resampling": [
+    "training seeds",
+    "objects"
+  ]
+}

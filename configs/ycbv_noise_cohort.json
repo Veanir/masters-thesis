@@ -1,0 +1,66 @@
+{
+  "schema_version": "bop-ycbv-relative-cohort-spec-v1",
+  "dataset": "ycbv",
+  "selection_seed": 0,
+  "object_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+  "expected_observation_count": 42,
+  "strata": ["relative-low", "relative-high"],
+  "candidate_source": "test_targets_bop19.json",
+  "mesh_root": "models_eval",
+  "implementation": {
+    "require_clean_source_commit": true,
+    "files": [
+      "pyproject.toml",
+      "uv.lock",
+      "src/masters_rgbd/b1/bop_ycbv_relative_cohort.py",
+      "src/masters_rgbd/b1/data.py",
+      "src/masters_rgbd/data/audit_rgbd.py",
+      "src/masters_rgbd/geometry/ground_truth.py"
+    ]
+  },
+  "dataset_source": {
+    "provider": "BOP Benchmark",
+    "dataset_url": "https://huggingface.co/datasets/bop-benchmark/ycbv",
+    "license": {
+      "spdx_id": "MIT",
+      "notice_path": "dataset_info.md",
+      "copyright": "Copyright (c) 2017 Robotics and State Estimation Lab at The University of Washington"
+    },
+    "object_model_source": {
+      "name": "YCB Object and Model Set",
+      "url": "https://www.ycbbenchmarks.com/object-models/"
+    },
+    "object_model_license": {
+      "spdx_id": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "dataset_files": {
+      "dataset_info.md": {"sha256": "4766684f25f165c1c312745e3583fe248161c56c35a862bfa04134141151882e", "size_bytes": 4035},
+      "test_targets_bop19.json": {"sha256": "c2cd2e1f5d04708f40d2c433dbc7d5caa9e2004f397eab79b36b433c5b57aaea", "size_bytes": 267503},
+      "models_eval/models_info.json": {"sha256": "13978298d8c37f089a7e0c421ed8be867fa836818936f5499786175da2c4c4cb", "size_bytes": 7093}
+    },
+    "archives": [
+      {"name": "ycbv_base.zip", "url": "https://huggingface.co/datasets/bop-benchmark/ycbv/resolve/main/ycbv_base.zip", "sha256": "98440f8bd403100b21cf11a6729fabe8b3d5ce714472edc57a18b7f1fcd4bb18", "size_bytes": 15805},
+      {"name": "ycbv_models.zip", "url": "https://huggingface.co/datasets/bop-benchmark/ycbv/resolve/main/ycbv_models.zip", "sha256": "1e517a9b513cadb8eaf406ac3ce3c5f1d6fc4a80161c866b4e2a73d13de5e554", "size_bytes": 524634729},
+      {"name": "ycbv_test_bop19.zip", "url": "https://huggingface.co/datasets/bop-benchmark/ycbv/resolve/main/ycbv_test_bop19.zip", "sha256": "c0c11251849877e7b2f373f6c7acf54739dc69d0fb2649c20050ca977bf5513d", "size_bytes": 660198701}
+    ]
+  },
+  "filters": {
+    "bbox_margin_px": 1,
+    "metadata_pixel_drift_max": 2,
+    "median_depth_radius_m": 0.25,
+    "effective_pixel_min": 512,
+    "so3_projection_max_correction": 0.000002,
+    "alignment_median_max_m": 0.002,
+    "alignment_p95_max_m": 0.015
+  },
+  "selection": {
+    "relative_partition": "bottom-and-top-ceil-third-by-visibility",
+    "tie_break": "sha256-v1",
+    "pairing": "different-scene-where-possible-else-different-frame"
+  },
+  "claims": {
+    "relative_visibility": true,
+    "absolute_occlusion": false
+  }
+}

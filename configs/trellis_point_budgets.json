@@ -1,0 +1,19 @@
+{
+  "modes": [
+    "natural",
+    "vertex512",
+    "area512"
+  ],
+  "vertex_subset_seed": 20260904,
+  "point_limit": 512,
+  "area_sampling_seeds": [
+    20260904,
+    20260905,
+    20260906
+  ],
+  "gt_points": 16384,
+  "gt_seed": "5000 + index in resolved validation cohort",
+  "sampling_repetitions_averaged_within_object": true,
+  "bootstrap_replicates": 20000,
+  "bootstrap_seed": 20260904
+}

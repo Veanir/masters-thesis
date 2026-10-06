@@ -1,0 +1,19 @@
+{
+  "model": "black-forest-labs/FLUX.2-klein-4B",
+  "revision": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
+  "resolution": [
+    640,
+    480
+  ],
+  "num_inference_steps": 4,
+  "guidance_scale": 1,
+  "depth_guide_range_m": [
+    0.1,
+    2
+  ],
+  "input_images": [
+    "RGB",
+    "clean depth guide"
+  ],
+  "admission": "source mask compared with SAM2 mask; fixed manual shape review; no regeneration of rejected images"
+}

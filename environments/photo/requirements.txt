@@ -1,0 +1,10 @@
+# Direct dependencies pinned for the official PyTorch 2.7.0 CUDA 12.8 image.
+# The run also exports pip-freeze.txt to bind all resolved transitive packages.
+diffusers==0.40.0
+transformers==5.16.1
+accelerate==1.14.0
+huggingface-hub==1.30.0
+safetensors==0.8.0
+sentencepiece==0.2.2
+numpy==1.26.4
+pillow==11.3.0

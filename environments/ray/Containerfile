@@ -1,0 +1,7 @@
+FROM docker.io/pytorch/pytorch:2.7.0-cuda12.8-cudnn9-runtime
+ENV DEBIAN_FRONTEND=noninteractive OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 MAX_JOBS=4 TORCH_CUDA_ARCH_LIST=8.6
+RUN apt-get update && apt-get install -y --no-install-recommends git libgl1 libglib2.0-0 build-essential ninja-build && rm -rf /var/lib/apt/lists/*
+RUN pip install --no-cache-dir numpy==1.26.4 scipy==1.15.3 pillow==11.3.0 open3d==0.19.0 matplotlib==3.10.5 timm==0.4.5 einops==0.8.1 easydict==1.13 h5py==3.14.0 pyyaml==6.0.2 tensorboardX==2.6.4 transforms3d==0.4.2 tqdm==4.67.1 huggingface-hub==0.34.4 trimesh==4.7.4 pyrender==0.1.45 rerun-sdk==0.22.1 wandb==0.21.1 opencv-python-headless==4.11.0.86
+RUN pip install --no-cache-dir numba==0.61.2 scikit-image==0.25.2 diffusers==0.35.1 transformers==4.55.4 accelerate==1.10.1 safetensors==0.6.2
+WORKDIR /work
+CMD ["bash"]
